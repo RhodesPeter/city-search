@@ -101,19 +101,13 @@ body {
     font-size: 3.5rem;
   }
 
-  .map-container {
+  .map-container,
+  .search-input,
+  .suggestions {
     width: 100%;
   }
 
   .search-form {
-    width: 85%;
-  }
-
-  .search-input {
-    width: 100%;
-  }
-
-  .suggestions {
-    width: 100%;
+    width: 95%;
   }
 }
