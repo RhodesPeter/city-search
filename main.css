@@ -38,7 +38,7 @@ body {
 }
 
 .search-input {
-  width: 350px;
+  width: 370px;
   height: 45px;
   text-align: center;
   font-size: 1.3rem;
@@ -119,15 +119,15 @@ body {
   }
 
   .header__title {
-    line-height: 4.4rem;
-    margin-top: -10px;
-    font-size: 4.3rem;
+    line-height: 3.8rem;
+    margin-top: -15px;
+    font-size: 3.8rem;
   }
 
   .map-container,
   .search-input,
   .suggestions {
-    width: 95%;
+    width: 100%;
   }
 
   .search-input {
