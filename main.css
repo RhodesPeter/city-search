@@ -17,7 +17,7 @@ body {
 .subheader {
   font-family: 'Courgette', cursive;
   font-size: 1.3rem;
-  margin: 20px auto;
+  margin: 15px auto;
   max-width: 400px;
   padding: 0 30px;
 }
@@ -97,6 +97,15 @@ body {
 }
 
 @media (max-width: 800px) {
+  .main-container {
+    width: 95%;
+  }
+
+  .subheader {
+    padding: 0 15px;
+    font-size: 1.2rem;
+  }
+
   .header__title {
     line-height: 4.5rem;
     margin-top: -10px;
@@ -106,7 +115,7 @@ body {
   .map-container,
   .search-input,
   .suggestions {
-    width: 100%;
+    width: 95%;
   }
 
   .search-form {
