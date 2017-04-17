@@ -50,7 +50,7 @@ body {
 }
 
 .suggestions {
-  width: 350px;
+  width: 370px;
   margin: 0;
   padding: 0;
 }
@@ -67,6 +67,12 @@ body {
   cursor: pointer;
 }
 
+.suggestions li:hover {
+  width: 350px;
+  margin-left: -5px;
+}
+
+.suggestions li:active,
 .matchedString {
   background-color: #ffd0e9;
 }
@@ -95,6 +101,11 @@ body {
     margin: 0 auto;
     width: 600px;
   }
+
+  .suggestions li:hover {
+    width: 580px;
+    margin-left: -5px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -103,14 +114,14 @@ body {
   }
 
   .subheader {
-    padding: 0 15px;
+    padding: 0 20px;
     font-size: 1.2rem;
   }
 
   .header__title {
-    line-height: 4.5rem;
+    line-height: 4.4rem;
     margin-top: -10px;
-    font-size: 4.5rem;
+    font-size: 4.3rem;
   }
 
   .map-container,
@@ -119,7 +130,21 @@ body {
     width: 95%;
   }
 
+  .search-input {
+    display: block;
+    margin: 0 auto;
+  }
+
   .search-form {
     width: 95%;
+  }
+
+  .suggestions {
+    margin-top: -20px;
+  }
+
+  .suggestions li:hover {
+    width: auto;
+    margin: 0;
   }
 }
