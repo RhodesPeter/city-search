@@ -64,6 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .matchedString {
